@@ -1,15 +1,73 @@
-/**{
-    margin:0;
-    padding: 0;
+* {
+    margin: 0;
     box-sizing: border-box;
+    font-family: helvetica;
 }
-:root {
-    --primary-color: 
-    --secondary-color: rgb(27, 151, 182);
-    --tertiary-color
-}*/
+
 /* header styles */
 
-    header h1 {
+    header {
         background-color: rgb(27, 151, 182);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: absolute;
     }
+    header h1 {
+        background-color:beige;
+        border: 10px solid rgb(27, 151, 182);
+        border-left: beige;
+        padding: 5px 8px 5px 100px 
+    }
+    header h1 a {
+        font-size: 36px;
+        font-family: Helvetica;
+        text-decoration: none;
+        color: black;
+        }
+
+    header nav ul {
+        display: flex;
+        justify-content:space-between;
+        list-style: none;
+        padding-right: 20px; 
+        border-right: solid rgb(27, 151, 182) 45px;
+    }
+    header ul {
+        padding-right: 15%;
+    }
+header li {
+    padding: 35px 15px 5px 5px;
+    border-bottom: black 3px solid;
+}
+    header li a {
+        font: helvetica;
+        list-style: none;
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: 50%;
+       
+        text-decoration: none;
+    }
+    /*still to do- fix the underline of nav*/
+/*end of header styles*/
+
+    /*begin hero section*/
+    .hero {
+    background-color: blue;
+    height: 40%;
+    padding: 15%;
+    }
+    .hero h3 {
+        position: relative; left: 500px; top: 75px;
+    }
+    .section-header {
+        font-size: 36px;
+    }
+    .portion-one {
+        border-right: solid 1px black;
+        
+    }
+
+    
