@@ -67,22 +67,49 @@ header li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 500px;
-    margin-right: auto;
+    margin-left: 75%;
     border: 3px black solid;
     padding: 5px;
     width: 30%;
     }
-   
-   
-   
-   
+   /* end of <hero styles> */
+.section-header {
+    position: relative;
+    text-align: right;
+    border-right: solid 3px black;
+    width: 20%;
+    margin: 25px 20px 20px 20px;
+    padding: 0px 10px 10px 10px;
+    font-size: 34px;
+    
+
+}
+p {
+    position: absolute;
+    left: 25%;
+    top: 270px;
+}
+       
+
+   /* "About Me" section 
+   .project-info {
+       display: inline-block;
+       margin: 2.5% 5% 5% 12%;
+   }
+   /*
     .section-header {
         font-size: 36px;
+        border-right: solid 3px black;
+        margin-right: 82%;
+        text-align: right;
+        padding: 10px;
+        display: flex;
+       flex-direction: column;
     }
-    .portion-one {
-        border-right: solid 1px black;
+    #about-me {
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
         
-    }
 
     
