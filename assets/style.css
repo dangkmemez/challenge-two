@@ -47,7 +47,6 @@ header li {
         font-size: 16px;
         margin-bottom: 20px;
         width: 50%;
-       
         text-decoration: none;
     }
     /*still to do- fix the underline of nav, use different colors*/
@@ -77,19 +76,31 @@ header li {
        display: flex;
        padding: 30px 40px 30px 50px;
        }
-    p, #your-projects {
+    p, #your-projects, #contact-box {
         border-left: solid 3px black;
         width: 75%;
         padding: 0px 10px 10px 30px;
+        list-style: none;
+        
     }
 .section-header {
     font-size: 36px;
     text-align: right;
     padding-right: 10px;
     width: 15%;
-    
 }
-    
+/*contact-box*/
+    #contact-box, #contact-box a {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        }
+    #contact-box a {
+        text-decoration: none;
+        border-bottom: 3px solid black;
+        color: black;
+        padding-bottom: 2px;
+    }
 
     
 
