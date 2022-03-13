@@ -74,6 +74,8 @@ header li {
    /* end of <hero styles> */
    .portion-one{
        display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
        padding: 30px 40px 30px 50px;
        }
     p, #your-projects, #contact-box {
@@ -83,12 +85,43 @@ header li {
         list-style: none;
         
     }
-.section-header {
-    font-size: 36px;
-    text-align: right;
-    padding-right: 10px;
-    width: 15%;
+    .section-header {
+        font-size: 36px;
+        text-align: right;
+        padding-right: 10px;
+        width: 15%;
+
 }
+
+/*work section*/
+.project-one {
+    height: 15%;
+}
+.project-one img {
+    width: 100%;
+    border: 2px black solid;
+}
+.project-bio {
+border: solid black 1px;
+width: 20%;
+text-align: left;
+}
+
+.projects {
+margin: auto;
+display: flex;
+}
+.projects img {
+    position: relative;
+    width: cover;
+}
+.project {
+  
+
+
+
+
+
 /*contact-box*/
     #contact-box, #contact-box a {
         display: flex;
