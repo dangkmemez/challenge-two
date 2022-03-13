@@ -4,7 +4,7 @@
     font-family: helvetica;
 }
 
-/* header styles */
+/* <header> styles */
 
     header {
         background-color: rgb(27, 151, 182);
@@ -50,18 +50,33 @@ header li {
        
         text-decoration: none;
     }
-    /*still to do- fix the underline of nav*/
-/*end of header styles*/
+    /*still to do- fix the underline of nav, use different colors*/
+/*end of <header> styles*/
 
-    /*begin hero section*/
+    /* <hero> styles */
     .hero {
-    background-color: blue;
-    height: 40%;
-    padding: 15%;
+    background-image: url(./images/AdobeColor-New-York-City.jpeg);
+    background-size: cover;
+    height: 30%;
+    padding: 20% 15% 1.5% 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     }
     .hero h3 {
-        position: relative; left: 500px; top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: auto;
+    border: 3px black solid;
+    padding: 5px;
+    width: 30%;
     }
+   
+   
+   
+   
     .section-header {
         font-size: 36px;
     }
