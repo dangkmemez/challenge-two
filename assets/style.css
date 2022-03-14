@@ -7,17 +7,18 @@
 /* <header> styles */
 
 header {
-    background-color: rgb(27, 151, 182);
+    background-color: #D5E5F2;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: absolute;
+    border: solid black 2.5px;
 }
 header h1 {
-    background-color:beige;
-    border: 10px solid rgb(27, 151, 182);
-    border-left: beige;
+    background-color:#A69460;
+    border: 10px solid #D5E5F2;
+    border-left: #A69460;
     padding: 5px 8px 5px 100px 
 }
 header h1 a {
@@ -32,17 +33,19 @@ header nav ul {
     justify-content:space-between;
     list-style: none;
     padding-right: 20px; 
-    border-right: solid rgb(27, 151, 182) 45px;
+    border-right: solid #D5E5F2;
 }
 header ul {
     padding-right: 15%;
 }
 
 header li {
+    margin: 5px;
     padding: 35px 15px 5px 5px;
     border-bottom: black 3px solid;
 }
 header li a {
+    color: #731921;
     font: helvetica;
     list-style: none;
     font-size: 16px;
@@ -55,7 +58,7 @@ header li a {
 
     /* <hero> styles */
 .hero {
-        background-image: url(./images/AdobeColor-New-York-City.jpeg);
+    background-image: url(./images/AdobeColor-New-York-City.jpeg);
     background-size: 85%;
     height: 30%;
     padding: 20% 15% 1.5% 15%;
@@ -70,91 +73,90 @@ header li a {
     justify-content: center;
     margin-left: 75%;
     border: 3px black solid;
+    background-color: #F2EFDF;
     padding: 5px;
     width: 30%;
 }
+
    /* end of <hero styles> */
-   
-   .portion-one {
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: row;
-       padding: 30px 40px 30px 50px;
-       justify-content: center;
-       }
-    .portion-two {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        list-style: none;
-        }
-    .content, #your-projects, #contact-box {
-        border-left: solid 3px black;
-        width: 75%;
-        padding: 0px 10px 10px 30px;
-        list-style: none;
-        
+.portion-one {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px 40px 30px 50px;
+    justify-content: center;
     }
-    .section-header {
-        font-size: 36px;
-        text-align: right;
-        padding-right: 10px;
-        width: 15%;
+.portion-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.content, #your-projects, #contact-box {
+    border-left: solid 3px black;
+    width: 75%;
+    padding: 0px 10px 10px 30px;
+    list-style: none;
+    
+}
+.section-header {
+    font-size: 36px;
+    text-align: right;
+    padding-right: 10px;
+    width: 15%;
 
 }
 
 /*work section*/
-
 .project-one img {
     width: 100%;
-    border: 2px black solid;
-}
-.project {
-    width: 50%;
 }
 
-.project-bio {
-border: solid black 1px;
-text-align: left;
+.project {
+    width: 50%;    
+    border: #F2EFDF solid 2px;
+}
+
+
+.project-bio a {
+    text-decoration: none;
+    color: #731921;
+}
+
+.text-box {
+    position: relative;
+    width: 120px;
+    bottom: 70px;
+    background-color: beige;
+    color: #731921;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .portion-two img {
-width: 100%;
+max-width: 100%;
 }
     
-
 #work {
     padding-bottom: 0;
 }
 
-.projects {
-    margin: 0;
+/*contact-box*/
+#contact-box, #contact-box a {
     display: flex;
-    height: 600px;
-    flex-wrap: wrap;
-    align-content: space-between;
-    padding-right: 0;
-    
+    justify-content: space-between;
+    padding-top: 15px;
+}
+#contact-box a {
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    color: black;
+    padding-bottom: 2px;
 }
 
+footer {
+    background-color: #D5E5F2;
+}
 
-
-
-
-/*contact-box*/
-    #contact-box, #contact-box a {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 15px;
-        }
-    #contact-box a {
-        text-decoration: none;
-        border-bottom: 3px solid black;
-        color: black;
-        padding-bottom: 2px;
-    }
-
-    
-
-    
