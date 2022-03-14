@@ -6,63 +6,65 @@
 
 /* <header> styles */
 
-    header {
-        background-color: rgb(27, 151, 182);
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        position: absolute;
+header {
+    background-color: rgb(27, 151, 182);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+}
+header h1 {
+    background-color:beige;
+    border: 10px solid rgb(27, 151, 182);
+    border-left: beige;
+    padding: 5px 8px 5px 100px 
+}
+header h1 a {
+    font-size: 36px;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: black;
     }
-    header h1 {
-        background-color:beige;
-        border: 10px solid rgb(27, 151, 182);
-        border-left: beige;
-        padding: 5px 8px 5px 100px 
-    }
-    header h1 a {
-        font-size: 36px;
-        font-family: Helvetica;
-        text-decoration: none;
-        color: black;
-        }
 
-    header nav ul {
-        display: flex;
-        justify-content:space-between;
-        list-style: none;
-        padding-right: 20px; 
-        border-right: solid rgb(27, 151, 182) 45px;
-    }
-    header ul {
-        padding-right: 15%;
-    }
+header nav ul {
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    padding-right: 20px; 
+    border-right: solid rgb(27, 151, 182) 45px;
+}
+header ul {
+    padding-right: 15%;
+}
+
 header li {
     padding: 35px 15px 5px 5px;
     border-bottom: black 3px solid;
 }
-    header li a {
-        font: helvetica;
-        list-style: none;
-        font-size: 16px;
-        margin-bottom: 20px;
-        width: 50%;
-        text-decoration: none;
-    }
+header li a {
+    font: helvetica;
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-decoration: none;
+}
     /*still to do- fix the underline of nav, use different colors*/
 /*end of <header> styles*/
 
     /* <hero> styles */
-    .hero {
-    background-image: url(./images/AdobeColor-New-York-City.jpeg);
+.hero {
+        background-image: url(./images/AdobeColor-New-York-City.jpeg);
     background-size: 85%;
     height: 30%;
     padding: 20% 15% 1.5% 15%;
     /*display: flex;
     flex-wrap: wrap;*/
     justify-content: center;
-    }
-    .hero h3 {
+}
+   
+.hero h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -70,15 +72,24 @@ header li {
     border: 3px black solid;
     padding: 5px;
     width: 30%;
-    }
+}
    /* end of <hero styles> */
-   .portion-one{
+   
+   .portion-one {
        display: flex;
        flex-wrap: wrap;
        flex-direction: row;
        padding: 30px 40px 30px 50px;
+       justify-content: center;
        }
-    p, #your-projects, #contact-box {
+    .portion-two {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        }
+    .content, #your-projects, #contact-box {
         border-left: solid 3px black;
         width: 75%;
         padding: 0px 10px 10px 30px;
@@ -94,29 +105,38 @@ header li {
 }
 
 /*work section*/
-.project-one {
-    height: 15%;
-}
+
 .project-one img {
     width: 100%;
     border: 2px black solid;
 }
+.project {
+    width: 50%;
+}
+
 .project-bio {
 border: solid black 1px;
-width: 20%;
 text-align: left;
 }
 
+.portion-two img {
+width: 100%;
+}
+    
+
+#work {
+    padding-bottom: 0;
+}
+
 .projects {
-margin: auto;
-display: flex;
+    margin: 0;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding-right: 0;
+    
 }
-.projects img {
-    position: relative;
-    width: cover;
-}
-.project {
-  
 
 
 
